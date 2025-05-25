@@ -1,0 +1,539 @@
+@media (max-width: 1300px) {
+  .navMenu {
+    border-bottom: 1px solid black !important;
+  }
+
+  a.menuElemaniTip1 {
+    border-bottom: 1px solid black !important;
+    padding: 16px 20px;
+    font-size: 22px;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+  a.menuElemaniTip1 {
+
+    padding: 12px 16px;
+    font-size: 22px;
+  }
+
+  .anasayfa,
+  .girisYapButonu {
+    display: block;
+    flex: none;
+    width: 100%;
+  }
+
+  #eskisehirmap {
+    float: none !important;
+    clear: left !important;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) and (min-width: 450px) {
+
+
+
+
+
+
+
+  .carousel.slide img {
+    height: 250px !important;
+
+  }
+
+  .navMenu {
+
+
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+
+
+  }
+
+  .girisYapButonu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  a.menuElemaniTip1 {
+
+
+    font-size: 18px;
+    padding: 10px 12px;
+
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+  .carousel.slide img {
+    height: 100px !important;
+
+  }
+
+  .button2 {
+
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 40px;
+  }
+
+
+  .button3 {
+    display: block;
+    width: 100%;
+
+  }
+
+  a.menuElemaniTip1 {
+
+    display: block;
+    flex: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 12px;
+  }
+
+}
+
+
+
+
+
+body {
+  background-color: #edeade;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+
+}
+
+
+
+
+
+
+
+.menuElemaniTip1 {
+
+  background-color: hsl(153, 32%, 76%);
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 24px 30px;
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+
+
+
+
+
+
+
+.navMenu {
+
+  background-color: hsl(153, 32%, 76%);
+  border-bottom: solid 2px;
+  width: 100%;
+}
+
+
+
+
+
+footer {
+
+  position: static;
+
+
+}
+
+
+
+
+
+.content {
+
+  background-color: #edeade;
+
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+.section {
+
+  padding: 50px 50px 350px 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+
+
+
+
+
+.menuElemaniTip1:not(.girisYapButonu:hover, .aktifsayfa:hover):hover {
+  background-color: hsl(153, 32%, 81%);
+}
+
+
+
+
+
+.menuElemaniTip1:not(.girisYapButonu:hover, .aktifsayfa:hover):active {
+
+  background-color: hsl(153, 32%, 83%) !important;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 10px !important;
+
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+  border-radius: 0px !important;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888 !important;
+  border-radius: 0px !important;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555 !important;
+
+}
+
+
+
+
+
+.girisYapButonu {
+  background-color: #50394c !important;
+  color: white !important;
+  float: right;
+}
+
+.aktifsayfa {
+  background-color: hsl(154, 32%, 25%) !important;
+  color: white !important;
+}
+
+
+
+
+#kullaniciadi1,
+#sifre1,
+.inputtip1 {
+  max-width: 100%;
+  width: 400px;
+}
+
+
+
+
+
+
+
+.labelkullaniciadi1,
+.labelsifre1,
+.divform1>h1 {
+  padding-left: 2px;
+
+}
+
+
+
+
+.button1,
+.button2,
+.button3 {
+  padding: 9px 25px;
+
+}
+
+
+
+.divform1>h1 {
+  font-size: 40px;
+
+}
+
+
+
+.inputtip2 {
+
+  max-width: 100%;
+  width: 220px;
+
+}
+
+
+.inputtip3 {
+  max-width: 100%;
+  width: 600px;
+
+}
+
+.button2 {
+  margin-right: 30px;
+
+}
+
+
+
+
+.hata {
+
+
+  color: #da3e3e;
+
+}
+
+
+.labelradio1 {
+
+
+  margin-right: 20px;
+
+}
+
+
+
+
+
+
+.iletisim-sonuc-col-1 {
+
+
+  margin-bottom: 200px;
+
+}
+
+
+div.basarisizformgiris {
+  color: #da3e3e;
+  margin-top: 40px;
+
+}
+
+
+
+div.basariliformgiris {
+  color: #37955b;
+  margin-top: 40px;
+
+}
+
+
+
+
+
+.basarili-form-giris-iletisim {
+  color: #37955b;
+  margin-bottom: 100px;
+  font-size: 26px;
+
+}
+
+.basarili-form-giris-iletisim a {
+  text-decoration-line: none;
+  color: #348d56;
+
+  font-size: 26px;
+}
+
+.carousel.slide img {
+  height: 600px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #000;
+}
+
+.carousel-container {
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+
+
+
+}
+
+
+
+
+.sehrim-heading {
+
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 2px black solid;
+  text-align: center !important;
+
+
+}
+
+
+
+
+.textortalayici>*,
+.textortalayici {
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  text-align: center !important;
+}
+
+
+
+.textortalayici.sehir-daha-fazla {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  text-align: center !important;
+
+}
+
+
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+.sehrim-link1 a {
+  text-decoration-line: none;
+  color: black;
+  font-size: 24px;
+
+}
+
+
+
+
+#eskisehirmap {
+
+  float: right;
+  overflow: auto;
+  width: 450px;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+.tanitim-img-container {
+
+
+
+  margin-top: 60px;
+
+
+}
+
+.tanitim-img1,
+.tanitim-img2 {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+.mirasimiz-img1>img {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-bottom: 40px;
+  margin-right: auto;
+}
+
+
+a.tanitim-a1,
+a.tanitim-a2 {
+  text-decoration-line: none;
+  font-size: 24px;
+  display: inline-block;
+  margin-bottom: 60px;
+
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+
+
+
+
+
+div.api-icin1>div>input {
+
+  max-width: 400px;
+
+}
